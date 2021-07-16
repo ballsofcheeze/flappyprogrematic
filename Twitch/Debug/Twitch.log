@@ -1,0 +1,3 @@
+﻿  Flapper.cpp
+C:\Users\Edwin\source\repos\Twitch\Twitch\FlappyTwitch\Flapper.cpp(16,32): warning C4305: 'argument': truncation from 'double' to 'float'
+  Twitch.vcxproj -> C:\Users\Edwin\source\repos\Twitch\Debug\Twitch.exe
