@@ -14,10 +14,13 @@ public:
 
 	bool checkCollision(Flapper& flapper);
 
+	void Reset();
 private:
 	void createPipe();
 	vector<Pipe*> pipes;
 
+	float xStartSeparation;
+	float yStartSeparation;
 	float xSeparation;
 	float minXSeparation;
 	float ySeparation;

@@ -3,8 +3,10 @@
 #include "Pipe.h"
 #include "../Engine/Physics/Rigidbody.h"
 
-PipeManager::PipeManager() : xSeparation(500), 
-		ySeparation(500), 
+PipeManager::PipeManager() : xSeparation(xStartSeparation),
+		xStartSeparation(500), 
+		yStartSeparation(500),
+		ySeparation(yStartSeparation),
 		minXSeparation(100),
 		minYSeparation(200), 
 		xSeparationSpeed(20),
@@ -12,6 +14,7 @@ PipeManager::PipeManager() : xSeparation(500),
 		minSpawnY(300), 
 		maxSpawnY(Engine::SCREEN_HEIGHT - 300),
 		totalPipes(0) {
+	Pipe::Initialize();
 	createPipe();
 }
 
@@ -79,4 +82,17 @@ void PipeManager::createPipe() {
 		}
 
 	}
+}
+
+void PipeManager::Reset() {
+	for (unsigned int i = 0; i < pipes.size(); i++) {
+		delete pipes[i];
+	}
+	pipes.clear();
+
+	xSeparation = xStartSeparation;
+	ySeparation = yStartSeparation;
+	totalPipes = 0;
+
+	createPipe();
 }

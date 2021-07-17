@@ -150,7 +150,7 @@
     <ClCompile Include="Engine\Math\Vector3.cpp" />
     <ClCompile Include="Engine\Physics\Rigidbody.cpp" />
     <ClCompile Include="FlappyTwitch\Flapper.cpp" />
-    <ClCompile Include="FlappyTwitch\InputManager.cpp" />
+    <ClCompile Include="FlappyTwitch\GameManager.cpp" />
     <ClCompile Include="FlappyTwitch\Pipe.cpp" />
     <ClCompile Include="FlappyTwitch\PipeManager.cpp" />
     <ClCompile Include="Twitch.cpp" />
@@ -166,7 +166,7 @@
     <ClInclude Include="Engine\Math\Vector3.h" />
     <ClInclude Include="Engine\Physics\Rigidbody.h" />
     <ClInclude Include="FlappyTwitch\Flapper.h" />
-    <ClInclude Include="FlappyTwitch\InputManager.h" />
+    <ClInclude Include="FlappyTwitch\GameManager.h" />
     <ClInclude Include="FlappyTwitch\Pipe.h" />
     <ClInclude Include="FlappyTwitch\PipeManager.h" />
   </ItemGroup>

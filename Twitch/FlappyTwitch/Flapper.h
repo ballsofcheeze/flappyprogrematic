@@ -16,10 +16,13 @@ public:
 	Sprite& getSprite();
 	Rigidbody& GetRB();
 
+	void Reset();
+
 private:
 	Sprite sprite;
 	Rigidbody rb;
 
+	void HandleInput();
 	float flapForce;
 	float minRot;
 	float maxRot;

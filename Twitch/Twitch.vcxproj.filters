@@ -48,13 +48,13 @@
     <ClCompile Include="Engine\Math\Math.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FlappyTwitch\InputManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="FlappyTwitch\Pipe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FlappyTwitch\PipeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlappyTwitch\GameManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -89,13 +89,13 @@
     <ClInclude Include="Engine\Math\Math.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FlappyTwitch\InputManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="FlappyTwitch\Pipe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FlappyTwitch\PipeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlappyTwitch\GameManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

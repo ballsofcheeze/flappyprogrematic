@@ -1,3 +1,8 @@
-﻿  Flapper.cpp
-C:\Users\Edwin\source\repos\Twitch\Twitch\FlappyTwitch\Flapper.cpp(16,32): warning C4305: 'argument': truncation from 'double' to 'float'
+﻿  GameManager.cpp
+C:\Users\Edwin\source\repos\Twitch\Twitch\FlappyTwitch\GameManager.cpp(8,116): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Edwin\source\repos\Twitch\Twitch\FlappyTwitch\GameManager.cpp(8,89): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Edwin\source\repos\Twitch\Twitch\FlappyTwitch\GameManager.cpp(14,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Edwin\source\repos\Twitch\Twitch\FlappyTwitch\GameManager.cpp(14,76): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Edwin\source\repos\Twitch\Twitch\FlappyTwitch\GameManager.cpp(17,110): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Edwin\source\repos\Twitch\Twitch\FlappyTwitch\GameManager.cpp(17,83): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Twitch.vcxproj -> C:\Users\Edwin\source\repos\Twitch\Debug\Twitch.exe
