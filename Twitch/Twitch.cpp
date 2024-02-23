@@ -6,7 +6,6 @@
 using namespace std;
 
 int main() {
-	cout << "Hello, Twitch!" << endl;
 	srand(time(NULL));
 
 	GameManager gameManager;
